@@ -1,0 +1,1512 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RehAAB Physiotherapy & Wellness Centre | Physiotherapy Clinic in Vasant Kunj, Delhi</title>
+    <meta name="description" content="RehAAB Physiotherapy & Wellness Centre provides personalised, evidence-based physiotherapy and rehabilitation in Vasant Kunj, Delhi, including musculoskeletal, orthopaedic, sports and women's health physiotherapy.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                            950: '#082f49',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#eef2f6] text-slate-800 antialiased pb-20 lg:pb-0">
+
+    <!-- Unified Sticky Header (No gaping, seamless on mobile and desktop) -->
+    <header class="sticky top-0 z-50 w-full shadow-md">
+        <!-- Top Location & Info Utility Bar -->
+        <div class="bg-[#0b132b] text-slate-300 text-[11px] sm:text-xs py-1.5 sm:py-2 px-4 md:px-8 border-b border-slate-800/80">
+            <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-1.5 md:gap-4">
+                <div class="flex items-center gap-2 text-center md:text-left">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-sky-400 shrink-0"></i>
+                    <span class="leading-tight text-slate-200">Shop No.1, OPD Block Nao Healthcare, opp. Fortis, Pocket 1, Sector B, Vasant Kunj, New Delhi</span>
+                </div>
+                <div class="hidden md:flex items-center gap-5 text-xs text-slate-300 shrink-0">
+                    <a href="tel:+919319933875" class="flex items-center gap-1.5 hover:text-sky-400 transition-colors font-medium">
+                        <i data-lucide="phone" class="w-3.5 h-3.5 text-sky-400"></i> +91 93199 33875
+                    </a>
+                    <span class="flex items-center gap-1.5 text-emerald-400 font-medium">
+                        <i data-lucide="clock" class="w-3.5 h-3.5"></i> Open Daily · 8 AM - 10 PM
+                    </span>
+                    <div class="flex items-center gap-3 border-l border-slate-700/80 pl-4">
+                        <a href="https://wa.me/919319933875?text=Hi%20RehAAB%20Team%2C%20I%20would%20like%20to%20know%20more%20about%20your%20physiotherapy%20services." target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition-colors flex items-center gap-1 text-slate-300 hover:text-white" title="WhatsApp">
+                            <i data-lucide="message-circle" class="w-3.5 h-3.5 text-green-400"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Navigation Bar (Black Navbar) -->
+        <nav class="bg-black border-b border-slate-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-2 sm:py-2.5 flex items-center justify-between">
+                <a href="/" class="flex items-center shrink-0">
+                    <img src="C2EB3874-13AE-4BEB-B6E9-36D8D11813AE.png" alt="RehAAB Physiotherapy & Wellness Centre" class="h-10 sm:h-11 md:h-12 w-auto object-contain" referrerpolicy="no-referrer">
+                </a>
+                
+                <!-- Desktop Nav Links -->
+                <div class="hidden lg:flex items-center gap-6 xl:gap-8 text-[13px] xl:text-sm font-semibold text-slate-300">
+                    <a href="/" class="text-white hover:text-sky-400 transition-colors">Home</a>
+                    <a href="#about" class="hover:text-sky-400 transition-colors">About</a>
+                    <a href="#services" class="hover:text-sky-400 transition-colors">Services</a>
+                    <a href="#team" class="hover:text-sky-400 transition-colors">Team</a>
+                    <a href="#conditions" class="hover:text-sky-400 transition-colors">Conditions</a>
+                    <a href="ai-assessment.html" class="flex items-center gap-1.5 text-sky-400 hover:text-sky-300 transition-all bg-sky-950/60 border border-sky-800/80 hover:border-sky-500/80 px-3.5 py-1.5 rounded-full text-xs font-semibold">
+                        <i data-lucide="sparkles" class="w-3.5 h-3.5 text-sky-400"></i> Free Assessment
+                    </a>
+                    <a href="#contact" class="hover:text-sky-400 transition-colors">Contact</a>
+                    
+                    <div class="flex items-center gap-3 ml-2">
+                        <a href="#contact" class="bg-[#0284c7] text-white px-5 py-2 rounded-full font-bold hover:bg-[#0369a1] transition-all shadow-sm text-xs uppercase tracking-wider">Book Appointment</a>
+                    </div>
+                </div>
+                
+                <!-- Mobile Hamburger Button -->
+                <button id="mobile-menu-btn" aria-label="Toggle Navigation Menu" class="lg:hidden text-white p-1.5 hover:bg-slate-900 rounded-lg focus:outline-none transition-colors cursor-pointer">
+                    <i data-lucide="menu" id="menu-icon" class="w-6 h-6 sm:w-7 sm:h-7 stroke-[2.2]"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation Dropdown -->
+            <div id="mobile-menu" class="hidden lg:hidden bg-[#0a0f1d] border-t border-slate-800/80 px-5 py-4 space-y-3 shadow-xl">
+                <a href="/" class="block text-white font-semibold hover:text-sky-400 text-sm py-1">Home</a>
+                <a href="#about" class="block text-slate-300 font-medium hover:text-sky-400 text-sm py-1 mobile-nav-link">About RehAAB</a>
+                <a href="#services" class="block text-slate-300 font-medium hover:text-sky-400 text-sm py-1 mobile-nav-link">Our Services</a>
+                <a href="#team" class="block text-slate-300 font-medium hover:text-sky-400 text-sm py-1 mobile-nav-link">Our Team</a>
+                <a href="#conditions" class="block text-slate-300 font-medium hover:text-sky-400 text-sm py-1 mobile-nav-link">Conditions We Treat</a>
+                <a href="ai-assessment.html" class="flex items-center gap-2 text-sky-400 font-semibold hover:text-sky-300 text-sm py-1">
+                    <i data-lucide="sparkles" class="w-4 h-4 text-sky-400"></i> Free Pain Relief Assessment
+                </a>
+                <a href="#contact" class="block text-slate-300 font-medium hover:text-sky-400 text-sm py-1 mobile-nav-link">Contact & Directions</a>
+                <div class="pt-2 flex gap-2 border-t border-slate-800">
+                    <a href="tel:+919319933875" class="flex-1 text-center block bg-slate-800 text-slate-200 py-2.5 rounded-xl font-bold text-xs hover:bg-slate-700 transition-colors">Call Clinic</a>
+                    <a href="#contact" class="mobile-nav-link flex-1 text-center block bg-[#0284c7] text-white py-2.5 rounded-xl font-bold text-xs hover:bg-[#0369a1] transition-colors">Book Visit</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section (Desktop Responsive & Mobile Pixel-Perfect) -->
+    <section class="pt-4 sm:pt-8 pb-12 lg:pb-20 px-4 sm:px-6 lg:px-12">
+        <div class="max-w-7xl mx-auto">
+            
+            <!-- Grid for Desktop / Stack for Mobile -->
+            <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                
+                <!-- Desktop Left Column: Clinic Hero Information -->
+                <div class="hidden lg:flex lg:col-span-7 flex-col justify-center">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sky-100 text-[#0284c7] font-bold text-xs uppercase tracking-wider w-max mb-6">
+                        <i data-lucide="shield-check" class="w-4 h-4"></i>
+                        Vasant Kunj • OPP. Fortis Hospital
+                    </div>
+                    
+                    <h1 class="text-4xl xl:text-5xl font-black text-slate-900 tracking-tight leading-[1.15] mb-6">
+                        Move Better.<br/>
+                        Recover Faster.<br/>
+                        <span class="text-[#0284c7]">Live Without Pain.</span>
+                    </h1>
+                    
+                    <p class="text-lg text-slate-600 leading-relaxed mb-8 max-w-xl">
+                        Evidence-based physiotherapy, pain management, and specialized orthopaedic rehabilitation tailored precisely to your condition and recovery goals.
+                    </p>
+
+                    <!-- Feature Highlights Grid -->
+                    <div class="grid sm:grid-cols-2 gap-4 mb-8 max-w-xl">
+                        <div class="flex items-center gap-3 p-3 rounded-2xl bg-white border border-slate-200/80 shadow-sm">
+                            <div class="w-10 h-10 rounded-xl bg-sky-50 text-[#0284c7] flex items-center justify-center shrink-0">
+                                <i data-lucide="user-check" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-sm text-slate-900">Doctor Led</h4>
+                                <p class="text-xs text-slate-500">Expert Physiotherapists</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 p-3 rounded-2xl bg-white border border-slate-200/80 shadow-sm">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
+                                <i data-lucide="sparkles" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-sm text-slate-900">Advanced Modalities</h4>
+                                <p class="text-xs text-slate-500">Laser & Ultrasound</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 p-3 rounded-2xl bg-white border border-slate-200/80 shadow-sm">
+                            <div class="w-10 h-10 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center shrink-0">
+                                <i data-lucide="activity" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-sm text-slate-900">Personal Care</h4>
+                                <p class="text-xs text-slate-500">1-on-1 Dedicated Rehab</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 p-3 rounded-2xl bg-white border border-slate-200/80 shadow-sm">
+                            <div class="w-10 h-10 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center shrink-0">
+                                <i data-lucide="clock" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-sm text-slate-900">Open 7 Days</h4>
+                                <p class="text-xs text-slate-500">Until 10 PM Daily</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex items-center gap-4 flex-wrap">
+                        <a href="#contact" class="bg-[#0284c7] hover:bg-[#0369a1] text-white font-bold px-7 py-3.5 rounded-full flex items-center gap-2 shadow-sm transition-all text-sm uppercase tracking-wider">
+                            <i data-lucide="calendar" class="w-4 h-4"></i> Book Appointment
+                        </a>
+                        <a href="https://wa.me/919319933875?text=Hi%20RehAAB%20Team%2C%20I%20would%20like%20to%20know%20more%20about%20your%20physiotherapy%20services." target="_blank" rel="noopener noreferrer" class="bg-[#16a34a] hover:bg-[#15803d] text-white font-bold px-7 py-3.5 rounded-full flex items-center gap-2 shadow-sm transition-all text-sm uppercase tracking-wider">
+                            <i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp Us
+                        </a>
+                        <a href="tel:+919319933875" class="bg-slate-900 hover:bg-slate-800 text-slate-200 font-bold px-6 py-3.5 rounded-full flex items-center gap-2 transition-all text-sm">
+                            <i data-lucide="phone" class="w-4 h-4 text-sky-400"></i> +91 93199 33875
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column (Desktop) / Main Content (Mobile): Assessment Card -->
+                <div class="lg:col-span-5 max-w-[440px] sm:max-w-[480px] mx-auto w-full">
+                    
+                    <!-- White Main Assessment Card -->
+                    <div class="bg-white rounded-[26px] p-6 sm:p-7 shadow-[0_4px_25px_rgba(0,0,0,0.04)] border border-slate-100/90 mb-4">
+                        <!-- Doctor Badge -->
+                        <div class="flex items-center gap-3 mb-5">
+                            <div class="w-10 h-10 rounded-full bg-[#e0f2fe] text-[#0284c7] flex items-center justify-center shrink-0">
+                                <i data-lucide="user" class="w-5 h-5 text-[#0284c7] stroke-[2.2]"></i>
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="text-[11px] font-bold text-[#0284c7] tracking-wider uppercase leading-tight">DESIGNED BY</span>
+                                <span class="text-xs font-black text-[#0284c7] tracking-wider uppercase mt-0.5 leading-tight">REHAB DOCTORS</span>
+                            </div>
+                        </div>
+
+                        <!-- Headings -->
+                        <h2 class="text-[30px] sm:text-[34px] font-black text-[#0f172a] tracking-tight leading-[1.12]">Free Pain Relief</h2>
+                        <h3 class="text-[30px] sm:text-[34px] font-black text-[#0284c7] tracking-tight leading-[1.12] mt-0.5">Assessment</h3>
+                        <div class="w-14 h-1.5 bg-[#0284c7] rounded-full mt-2.5 mb-4"></div>
+
+                        <!-- Description -->
+                        <p class="text-[14px] sm:text-[15px] text-[#475569] font-normal leading-relaxed mb-6">
+                            Answer a few simple questions about your pain and movement. Get personalized exercise ideas and tips to help you feel better.
+                        </p>
+
+                        <!-- 3 Feature Highlight Badges -->
+                        <div class="grid grid-cols-3 divide-x divide-slate-100 bg-[#f8fafc] rounded-2xl border border-slate-100 py-3 px-1 mb-6">
+                            <div class="flex items-center gap-2 justify-center px-1">
+                                <div class="w-7 h-7 rounded-full bg-[#e0f2fe] text-[#0284c7] flex items-center justify-center shrink-0">
+                                    <i data-lucide="clock" class="w-3.5 h-3.5 stroke-[2.5]"></i>
+                                </div>
+                                <div class="flex flex-col leading-none">
+                                    <span class="text-[10px] text-slate-500 font-medium">Takes</span>
+                                    <span class="text-[12px] font-bold text-slate-900 mt-0.5">3 Minutes</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2 justify-center px-1">
+                                <div class="w-7 h-7 rounded-full bg-[#e0f2fe] text-[#0284c7] flex items-center justify-center shrink-0">
+                                    <i data-lucide="check" class="w-3.5 h-3.5 stroke-[2.5]"></i>
+                                </div>
+                                <div class="flex flex-col leading-none">
+                                    <span class="text-[10px] text-slate-500 font-medium">100%</span>
+                                    <span class="text-[12px] font-bold text-slate-900 mt-0.5">Free</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2 justify-center px-1">
+                                <div class="w-7 h-7 rounded-full bg-[#e0f2fe] text-[#0284c7] flex items-center justify-center shrink-0">
+                                    <i data-lucide="shield" class="w-3.5 h-3.5 stroke-[2.5]"></i>
+                                </div>
+                                <div class="flex flex-col leading-none">
+                                    <span class="text-[10px] text-slate-500 font-medium">Safe &</span>
+                                    <span class="text-[12px] font-bold text-slate-900 mt-0.5">Confidential</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Primary CTA Button (Black) -->
+                        <a href="ai-assessment.html" class="w-full bg-[#081220] hover:bg-[#121e33] text-white font-bold py-4 px-6 rounded-full flex items-center justify-between shadow-lg shadow-slate-900/10 cursor-pointer active:scale-[0.98] transition-all">
+                            <i data-lucide="sparkles" class="w-5 h-5 text-[#38bdf8] shrink-0"></i>
+                            <span class="flex-1 text-center font-bold text-[15px] sm:text-base">Start My Free Assessment</span>
+                            <i data-lucide="arrow-right" class="w-5 h-5 text-white shrink-0"></i>
+                        </a>
+
+                        <!-- Note below button -->
+                        <p class="text-xs text-slate-500 font-medium text-center mt-3.5 mb-0">No sign-up required • Get instant personalized guidance</p>
+                    </div>
+
+                    <!-- Secondary Pill Action Buttons (shown on mobile and available on desktop) -->
+                    <div class="space-y-3 lg:hidden">
+                        <a href="#contact" class="w-full bg-[#0284c7] hover:bg-[#0369a1] text-white font-bold py-3.5 px-5 rounded-full flex items-center justify-between shadow-sm cursor-pointer active:scale-[0.98] transition-all">
+                            <div class="w-8 h-8 rounded-full bg-white text-[#0284c7] flex items-center justify-center shrink-0">
+                                <i data-lucide="calendar" class="w-4 h-4 text-[#0284c7]"></i>
+                            </div>
+                            <span class="flex-1 text-center font-bold text-[15px] sm:text-base">Book an Appointment</span>
+                            <i data-lucide="arrow-right" class="w-5 h-5 text-white shrink-0"></i>
+                        </a>
+
+                        <a href="https://wa.me/919319933875?text=Hi%20RehAAB%20Team%2C%20I%20would%20like%20to%20know%20more%20about%20your%20physiotherapy%20services." target="_blank" rel="noopener noreferrer" class="w-full bg-[#16a34a] hover:bg-[#15803d] text-white font-bold py-3.5 px-5 rounded-full flex items-center justify-between shadow-sm cursor-pointer active:scale-[0.98] transition-all">
+                            <div class="w-8 h-8 rounded-full bg-white text-[#16a34a] flex items-center justify-center shrink-0">
+                                <i data-lucide="message-circle" class="w-4 h-4 text-[#16a34a]"></i>
+                            </div>
+                            <span class="flex-1 text-center font-bold text-[15px] sm:text-base">WhatsApp Us</span>
+                            <i data-lucide="arrow-right" class="w-5 h-5 text-white shrink-0"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Trust Strip -->
+    <div class="bg-brand-900 text-white py-8 border-t-4 border-brand-500">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center divide-x divide-brand-800">
+                <div class="px-4">
+                    <h3 class="font-bold text-lg mb-1">Personalised Care</h3>
+                    <p class="text-brand-200 text-sm">Tailored to you</p>
+                </div>
+                <div class="px-4">
+                    <h3 class="font-bold text-lg mb-1">Evidence-Based</h3>
+                    <p class="text-brand-200 text-sm">Proven techniques</p>
+                </div>
+                <div class="px-4">
+                    <h3 class="font-bold text-lg mb-1">Experienced Team</h3>
+                    <p class="text-brand-200 text-sm">Expert physiotherapists</p>
+                </div>
+                <div class="px-4">
+                    <h3 class="font-bold text-lg mb-1">Patient-Centred</h3>
+                    <p class="text-brand-200 text-sm">Focused on your goals</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- What is RehAAB? -->
+    <section id="about" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 text-center max-w-3xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Physiotherapy Designed Around You</h2>
+            <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                At RehAAB Physiotherapy and Wellness Centre, we believe effective rehabilitation begins with understanding the person behind the condition. Our physiotherapists take the time to assess your concerns, understand your goals and develop a treatment plan tailored to your individual needs.
+            </p>
+            <p class="text-lg text-slate-600 mb-10 leading-relaxed">
+                From pain management and injury rehabilitation to women's health, post-operative recovery and balance rehabilitation, our goal is to help you restore movement, build confidence and return to the activities that matter to you.
+            </p>
+            <a href="#about" class="inline-flex items-center gap-2 font-bold text-brand-600 hover:text-brand-700 text-lg">
+                Know More About RehAAB <i data-lucide="arrow-right" class="w-5 h-5"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-24 bg-slate-50 border-y border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-6">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">How We Can Help</h2>
+                    <p class="text-slate-600 text-lg max-w-2xl">Specialised treatments designed to alleviate pain, restore mobility, and enhance your quality of life.</p>
+                </div>
+                <a href="#services" class="inline-flex items-center gap-2 font-bold text-brand-600 hover:text-brand-700 whitespace-nowrap">
+                    Explore All Services <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Service Cards -->
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
+                    <div class="w-14 h-14 bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center mb-6"><i data-lucide="activity" class="w-7 h-7"></i></div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Musculoskeletal Physiotherapy</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Assessment and rehabilitation for common muscle, joint and movement-related conditions.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
+                    <div class="w-14 h-14 bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center mb-6"><i data-lucide="bone" class="w-7 h-7"></i></div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Orthopaedic Rehabilitation</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Structured rehabilitation before and after orthopaedic procedures and injuries.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
+                    <div class="w-14 h-14 bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center mb-6"><i data-lucide="dumbbell" class="w-7 h-7"></i></div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Sports Injury Rehabilitation</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Helping athletes and active individuals recover safely and return to activity.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
+                    <div class="w-14 h-14 bg-pink-50 text-pink-600 rounded-2xl flex items-center justify-center mb-6"><i data-lucide="heart" class="w-7 h-7"></i></div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Women's Health Physiotherapy</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Specialised physiotherapy addressing women's health and movement-related concerns.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
+                    <div class="w-14 h-14 bg-pink-50 text-pink-600 rounded-2xl flex items-center justify-center mb-6"><i data-lucide="baby" class="w-7 h-7"></i></div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Antenatal & Postnatal Physiotherapy</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Supporting women through pregnancy, childbirth and postpartum recovery.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
+                    <div class="w-14 h-14 bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center mb-6"><i data-lucide="circle-dashed" class="w-7 h-7"></i></div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Pelvic Floor Rehabilitation</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Individualised rehabilitation for pelvic floor and related functional concerns.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
+                    <div class="w-14 h-14 bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center mb-6"><i data-lucide="refresh-cw" class="w-7 h-7"></i></div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Vestibular Rehabilitation</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Assessment and rehabilitation for dizziness, vertigo and balance-related problems.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
+                    <div class="w-14 h-14 bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center mb-6"><i data-lucide="users" class="w-7 h-7"></i></div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Geriatric Rehabilitation</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Supporting strength, mobility, balance and independence as we age.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
+                    <div class="w-14 h-14 bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center mb-6"><i data-lucide="home" class="w-7 h-7"></i></div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Home Physiotherapy</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Personalised physiotherapy delivered at home for patients who require home-based care.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conditions We Treat -->
+    <section id="conditions" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="mb-12">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Conditions We Help You Manage</h2>
+            </div>
+            
+            <div class="flex flex-wrap gap-3 mb-8">
+                <a href="#" class="px-5 py-3 rounded-full bg-slate-50 border border-slate-200 text-slate-700 font-medium hover:border-brand-300 hover:text-brand-600 transition-all">Back Pain</a>
+                <a href="#" class="px-5 py-3 rounded-full bg-slate-50 border border-slate-200 text-slate-700 font-medium hover:border-brand-300 hover:text-brand-600 transition-all">Neck Pain</a>
+                <a href="#" class="px-5 py-3 rounded-full bg-slate-50 border border-slate-200 text-slate-700 font-medium hover:border-brand-300 hover:text-brand-600 transition-all">Knee Pain</a>
+                <a href="#" class="px-5 py-3 rounded-full bg-slate-50 border border-slate-200 text-slate-700 font-medium hover:border-brand-300 hover:text-brand-600 transition-all">Shoulder Pain</a>
+                <a href="#" class="px-5 py-3 rounded-full bg-slate-50 border border-slate-200 text-slate-700 font-medium hover:border-brand-300 hover:text-brand-600 transition-all">Hip Pain</a>
+                <a href="#" class="px-5 py-3 rounded-full bg-slate-50 border border-slate-200 text-slate-700 font-medium hover:border-brand-300 hover:text-brand-600 transition-all">Sports Injuries</a>
+                <a href="#" class="px-5 py-3 rounded-full bg-slate-50 border border-slate-200 text-slate-700 font-medium hover:border-brand-300 hover:text-brand-600 transition-all">Arthritis</a>
+                <a href="#" class="px-5 py-3 rounded-full bg-slate-50 border border-slate-200 text-slate-700 font-medium hover:border-brand-300 hover:text-brand-600 transition-all">ACL Rehabilitation</a>
+                <a href="#" class="px-5 py-3 rounded-full bg-slate-50 border border-slate-200 text-slate-700 font-medium hover:border-brand-300 hover:text-brand-600 transition-all">Meniscus Injuries</a>
+                <a href="#" class="px-5 py-3 rounded-full bg-slate-50 border border-slate-200 text-slate-700 font-medium hover:border-brand-300 hover:text-brand-600 transition-all">Post-Surgical Rehab</a>
+                <a href="#" class="px-5 py-3 rounded-full bg-slate-50 border border-slate-200 text-slate-700 font-medium hover:border-brand-300 hover:text-brand-600 transition-all">Vertigo & Balance</a>
+                <a href="#" class="px-5 py-3 rounded-full bg-slate-50 border border-slate-200 text-slate-700 font-medium hover:border-brand-300 hover:text-brand-600 transition-all">Pelvic Floor Concerns</a>
+            </div>
+            
+            <a href="#" class="inline-flex items-center gap-2 font-bold text-brand-600 hover:text-brand-700">
+                View All Conditions <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Why Choose RehAAB? -->
+    <section class="py-24 bg-slate-50 border-y border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <h2 class="text-3xl font-bold text-slate-900 mb-12 text-center">Why Patients Choose RehAAB</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="font-bold text-lg mb-2 text-slate-900 flex items-center gap-2">
+                        <i data-lucide="check-circle-2" class="w-6 h-6 text-brand-500"></i> Individualised Care
+                    </h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Every treatment plan is developed around the patient's condition, goals and lifestyle.</p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-2 text-slate-900 flex items-center gap-2">
+                        <i data-lucide="check-circle-2" class="w-6 h-6 text-brand-500"></i> Evidence-Based Practice
+                    </h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Treatment decisions are guided by current clinical evidence and professional expertise.</p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-2 text-slate-900 flex items-center gap-2">
+                        <i data-lucide="check-circle-2" class="w-6 h-6 text-brand-500"></i> One-to-One Attention
+                    </h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Focus on meaningful interaction between therapist and patient.</p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-2 text-slate-900 flex items-center gap-2">
+                        <i data-lucide="check-circle-2" class="w-6 h-6 text-brand-500"></i> Functional Rehabilitation
+                    </h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">We don't just focus on reducing pain—we work towards restoring movement and function.</p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-2 text-slate-900 flex items-center gap-2">
+                        <i data-lucide="check-circle-2" class="w-6 h-6 text-brand-500"></i> Holistic Approach
+                    </h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">We consider mobility, strength, movement, lifestyle and functional goals.</p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-2 text-slate-900 flex items-center gap-2">
+                        <i data-lucide="check-circle-2" class="w-6 h-6 text-brand-500"></i> Support Beyond the Clinic
+                    </h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Patients receive guidance and education to help them continue their progress beyond treatment sessions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team -->
+    <section id="team" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <h2 class="text-3xl font-bold text-slate-900 mb-12 text-center">Meet Your Physiotherapy Team</h2>
+            
+            <div class="max-w-4xl mx-auto flex flex-col gap-8">
+                <!-- Team Member 1: Dr. Abdul Ahad Khan -->
+                <div class="bg-slate-50 p-6 sm:p-8 md:p-10 rounded-3xl border border-slate-200/80 shadow-sm flex flex-col md:flex-row gap-8 md:gap-10 items-start">
+                    <div class="w-44 h-44 sm:w-52 sm:h-52 md:w-60 md:h-60 shrink-0 rounded-2xl overflow-hidden border-4 border-white shadow-md mx-auto md:mx-0">
+                        <img src="e9d7ec00-ee4e-4891-b34b-a01a430614fd.jpeg" alt="Dr. Abdul Ahad Khan (PT)" class="w-full h-full object-cover object-top" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="flex-1 w-full">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-1">Dr. Abdul Ahad Khan (PT)</h3>
+                        <p class="text-sky-600 font-bold mb-4 text-sm sm:text-base">Founder & Director</p>
+                        
+                        <div class="text-slate-600 leading-relaxed text-sm sm:text-[15px] space-y-3">
+                            <p>Dr. Abdul Ahad Khan has conducted 10,000+ physiotherapy and rehabilitation sessions, working extensively across orthopaedic, post-operative, musculoskeletal and sports rehabilitation.</p>
+                            <p>His clinical experience includes the rehabilitation of 100+ Total Knee Replacement patients, along with Total Hip Replacement cases, major orthopaedic surgeries, acute and chronic lower-back conditions, sports injuries, movement dysfunction and return-to-activity rehabilitation.</p>
+                            <p>His work combines physiotherapy with advanced strength and conditioning principles, allowing rehabilitation to progress beyond pain management into mobility, strength, movement control and functional recovery.</p>
+
+                            <!-- Collapsible extended content -->
+                            <div id="team-more-1" class="hidden space-y-3.5 pt-4 border-t border-slate-200/80 mt-4">
+                                <p>Dr. Khan holds a Master of Science in Strength and Conditioning and a Bachelor of Physiotherapy from Indian Spinal Injuries Centre (GGSIPU).</p>
+                                <p>His clinical experience includes work at Holy Family Hospital, along with specialised exposure at Safdarjung Sports Injury Centre and Indian Spinal Injuries Centre.</p>
+                                
+                                <div>
+                                    <p class="font-semibold text-slate-800 mb-2">Over the years, he has worked across:</p>
+                                    <ul class="grid sm:grid-cols-2 gap-2 text-slate-700">
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Total Knee Replacement and Total Hip Replacement rehabilitation</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Post-operative orthopaedic rehabilitation</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Acute and chronic spine and lower-back conditions</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Sports and exercise-related injuries</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Musculoskeletal and movement-related conditions</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Strength, mobility and functional rehabilitation</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs sm:col-span-2">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Return-to-sport and return-to-activity programmes</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p>Beyond clinical practice, he has also worked in the orthopaedic industry with Auxein Medical, contributing to medical education in arthroscopy and trauma implants, surgical technique documentation and advanced training programmes.</p>
+                                
+                                <p>He is also trained in Dry Needling, Cupping Therapy and Sleep Apnea Rehabilitation.</p>
+
+                                <p class="p-3.5 bg-sky-50/70 rounded-xl border border-sky-100 text-slate-700">This combination of high-volume clinical practice, post-surgical rehabilitation, sports injury exposure, strength and conditioning, and orthopaedic industry experience gives Dr. Khan a broad understanding of the rehabilitation process — from injury or surgery to functional recovery.</p>
+                            </div>
+                        </div>
+
+                        <button onclick="toggleTeamBio('team-more-1', this)" class="mt-4 text-brand-600 hover:text-brand-700 font-bold text-sm transition-colors inline-flex items-center gap-1.5 cursor-pointer">
+                            <span class="btn-label">Read more</span>
+                            <span class="btn-icon text-xs">▼</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Team Member 2: Dr. Shalini -->
+                <div class="bg-slate-50 p-6 sm:p-8 md:p-10 rounded-3xl border border-slate-200/80 shadow-sm flex flex-col md:flex-row gap-8 md:gap-10 items-start">
+                    <div class="w-44 h-44 sm:w-52 sm:h-52 md:w-60 md:h-60 shrink-0 rounded-2xl overflow-hidden border-4 border-white shadow-md mx-auto md:mx-0">
+                        <img src="a852473e-7339-4a27-ae46-77a8680571af.jpeg" alt="Dr. Shalini (PT)" class="w-full h-full object-cover object-top" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="flex-1 w-full">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-1">Dr. Shalini (PT)</h3>
+                        <p class="text-sky-600 font-bold mb-4 text-sm sm:text-base leading-snug">Consultant Physiotherapist | Neurological, Women’s Health & Musculoskeletal Rehabilitation</p>
+                        
+                        <div class="text-slate-600 leading-relaxed text-sm sm:text-[15px] space-y-3">
+                            <p>Dr. Shalini has conducted 2,000+ physiotherapy and rehabilitation sessions over 5+ years of clinical experience, working across neurological, musculoskeletal, paediatric and women’s health rehabilitation.</p>
+                            <p>At RehAAB, she is particularly valued for her work in neurological rehabilitation and women’s health physiotherapy, including prenatal, postnatal and pelvic-floor rehabilitation, while also managing complex musculoskeletal and developmental cases.</p>
+                            <p>Her strength lies in working with patients who need structured, progressive and closely monitored rehabilitation, especially where recovery involves movement retraining, functional independence, long-term progression or multiple clinical factors.</p>
+
+                            <!-- Collapsible extended content -->
+                            <div id="team-more-2" class="hidden space-y-3.5 pt-4 border-t border-slate-200/80 mt-4">
+                                <div>
+                                    <p class="font-semibold text-slate-800 mb-2">Dr. Shalini’s clinical work includes:</p>
+                                    <ul class="grid sm:grid-cols-2 gap-2 text-slate-700">
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Neurological rehabilitation and movement recovery</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Prenatal and postnatal physiotherapy</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Pelvic-floor rehabilitation</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Pelvic-floor dysfunction and vaginismus</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Musculoskeletal and orthopaedic rehabilitation</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Complex back and neck pain</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Radiating pain and joint disorders</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Paediatric and developmental rehabilitation</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs sm:col-span-2">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Functional and exercise-based recovery</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p>A significant part of her work involves patients who need more than short-term symptom management — including those recovering from neurological conditions, pregnancy-related physical changes, pelvic-floor dysfunction, developmental movement concerns and persistent musculoskeletal problems.</p>
+
+                                <div class="bg-sky-50/80 border-l-4 border-sky-500 p-4 rounded-r-2xl my-2 text-slate-700 text-sm">
+                                    <p class="font-semibold text-sky-900 mb-1 flex items-center gap-1.5"><i data-lucide="heart-pulse" class="w-4 h-4 text-sky-600"></i> Notable Paediatric Case</p>
+                                    <p>One notable paediatric case involved a 17-month-old child with persistent toe-walking and difficulty developing a normal walking pattern. Through an individualised rehabilitation programme, regular monitoring and parent-guided exercises, the child showed significant improvement within 12 sessions.</p>
+                                </div>
+
+                                <p>Her musculoskeletal work has also included patients with severe radiating lower-back pain, where treatment combined clinical assessment, manual therapy, therapeutic exercise and progressive rehabilitation to improve both symptoms and function.</p>
+
+                                <p class="p-3.5 bg-sky-50/70 rounded-xl border border-sky-100 text-slate-700">With her experience across neurology, women’s health, paediatrics and musculoskeletal rehabilitation, Dr. Shalini adds an important dimension to RehAAB’s clinical team — particularly for patients looking for a physiotherapist with experience beyond routine orthopaedic rehabilitation.</p>
+                            </div>
+                        </div>
+
+                        <button onclick="toggleTeamBio('team-more-2', this)" class="mt-4 text-brand-600 hover:text-brand-700 font-bold text-sm transition-colors inline-flex items-center gap-1.5 cursor-pointer">
+                            <span class="btn-label">Read more</span>
+                            <span class="btn-icon text-xs">▼</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Team Member 3: Dr. Atif -->
+                <div class="bg-slate-50 p-6 sm:p-8 md:p-10 rounded-3xl border border-slate-200/80 shadow-sm flex flex-col md:flex-row gap-8 md:gap-10 items-start">
+                    <div class="w-44 h-44 sm:w-52 sm:h-52 md:w-60 md:h-60 shrink-0 rounded-2xl overflow-hidden border-4 border-white shadow-md mx-auto md:mx-0">
+                        <img src="bb7eec9c-62db-44b1-8677-409938f5d95e.jpeg" alt="Dr. Atif (PT)" class="w-full h-full object-cover object-top" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="flex-1 w-full">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-1">Dr. Atif (PT)</h3>
+                        <p class="text-sky-600 font-bold mb-4 text-sm sm:text-base leading-snug">Physiotherapist | Sports & Orthopaedic Rehabilitation</p>
+                        
+                        <div class="text-slate-600 leading-relaxed text-sm sm:text-[15px] space-y-3">
+                            <p>Dr. Atif has conducted 1,200+ physiotherapy and rehabilitation sessions, with focused experience in sports injuries, musculoskeletal conditions and orthopaedic rehabilitation.</p>
+                            <p>At RehAAB, he has built a strong patient base through one particular strength: creating rehabilitation plans around the individual rather than using the same routine for every patient.</p>
+                            <p>His assessment looks at the injury, movement pattern, strength, physical demands and the activity the patient wants to return to. The rehabilitation plan is then progressed accordingly — whether the goal is to walk comfortably, return to the gym, resume training or get back to sport.</p>
+
+                            <!-- Collapsible extended content -->
+                            <div id="team-more-3" class="hidden space-y-3.5 pt-4 border-t border-slate-200/80 mt-4">
+                                <div>
+                                    <p class="font-semibold text-slate-800 mb-2">Dr. Atif’s clinical work includes:</p>
+                                    <ul class="grid sm:grid-cols-2 gap-2 text-slate-700">
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Sports injury rehabilitation and return-to-sport</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Acute injury and pain management</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Orthopaedic and musculoskeletal rehabilitation</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Biomechanical and movement assessment</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Strength and functional rehabilitation</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Exercise prescription and sport-specific conditioning</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Post-injury recovery</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Rehabilitation aimed at reducing recurrent injuries</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p>A key part of his work is individual rehabilitation planning. Instead of following a fixed set of exercises, treatment is adjusted according to how the patient is moving, responding and progressing at each stage.</p>
+
+                                <div class="bg-sky-50/80 border-l-4 border-sky-500 p-4 rounded-r-2xl my-2 text-slate-700 text-sm">
+                                    <p class="font-semibold text-sky-900 mb-1 flex items-center gap-1.5"><i data-lucide="trophy" class="w-4 h-4 text-sky-600"></i> Notable Athlete Case</p>
+                                    <p>One notable case involved an athlete who sustained an injury two days before a HYROX competition. With very limited time available, Dr. Atif worked on assessment, symptom management, movement correction and preparation for the physical demands of the event. The athlete was subsequently able to participate in and complete the HYROX race.</p>
+                                </div>
+
+                                <p>Over 2 years of clinical practice, Dr. Atif has worked extensively with active individuals, athletes and orthopaedic patients, building his experience around one consistent process: assess carefully, plan specifically and progress rehabilitation according to the person in front of him.</p>
+
+                                <p class="p-3.5 bg-sky-50/70 rounded-xl border border-sky-100 text-slate-700">His close involvement throughout rehabilitation and ability to adapt treatment as the patient progresses have made him a strong and trusted part of RehAAB’s physiotherapy team.</p>
+                            </div>
+                        </div>
+
+                        <button onclick="toggleTeamBio('team-more-3', this)" class="mt-4 text-brand-600 hover:text-brand-700 font-bold text-sm transition-colors inline-flex items-center gap-1.5 cursor-pointer">
+                            <span class="btn-label">Read more</span>
+                            <span class="btn-icon text-xs">▼</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Team Member 4: Dr. Ettefaque -->
+                <div class="bg-slate-50 p-6 sm:p-8 md:p-10 rounded-3xl border border-slate-200/80 shadow-sm flex flex-col md:flex-row gap-8 md:gap-10 items-start">
+                    <div class="w-44 h-44 sm:w-52 sm:h-52 md:w-60 md:h-60 shrink-0 rounded-2xl overflow-hidden border-4 border-white shadow-md mx-auto md:mx-0">
+                        <img src="fdca208a-94b7-434c-be8b-b156f47a3618.jpeg" alt="Dr. Ettefaque (PT)" class="w-full h-full object-cover object-top" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="flex-1 w-full">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-1">Dr. Ettefaque (PT)</h3>
+                        <p class="text-sky-600 font-bold mb-4 text-sm sm:text-base leading-snug">Physiotherapist | Orthopaedic & Geriatric Rehabilitation</p>
+                        
+                        <div class="text-slate-600 leading-relaxed text-sm sm:text-[15px] space-y-3">
+                            <p>Dr. Ettefaque’s clinical training has been centred around orthopaedic, post-operative and geriatric rehabilitation, with particular exposure to patients recovering from surgery, fractures, joint problems, reduced mobility, gait difficulties and age-related weakness.</p>
+                            <p>He completed his clinical physiotherapy training at Holy Family Hospital, where he worked with patients across orthopaedic, neurological, post-operative and geriatric rehabilitation under experienced clinical supervision.</p>
+                            <p>His work focuses on helping patients gradually regain movement, strength, balance, walking ability and independence in everyday activities, with rehabilitation progressed according to the patient’s condition and stage of recovery.</p>
+
+                            <!-- Collapsible extended content -->
+                            <div id="team-more-4" class="hidden space-y-3.5 pt-4 border-t border-slate-200/80 mt-4">
+                                <p>During his training at Holy Family Hospital, Dr. Ettefaque worked under the guidance of Dr. Abha Sharma (PT), HOD, Department of Physiotherapy, gaining practical experience in patient assessment, exercise planning, gait training, strengthening, balance work and functional rehabilitation.</p>
+                                <p>Across his academic and clinical training, he has participated in 800+ physiotherapy and rehabilitation sessions, providing him with exposure to patients at different stages of recovery.</p>
+
+                                <div>
+                                    <p class="font-semibold text-slate-800 mb-2">His clinical exposure includes:</p>
+                                    <ul class="grid sm:grid-cols-2 gap-2 text-slate-700">
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Post-operative knee rehabilitation</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Orthopaedic and fracture rehabilitation</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Geriatric rehabilitation</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Joint replacement rehabilitation</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Gait and balance training</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 bg-white/80 p-2.5 rounded-xl border border-slate-200/60 shadow-2xs">
+                                            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+                                            <span>Functional independence rehabilitation</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="bg-sky-50/80 border-l-4 border-sky-500 p-4 rounded-r-2xl my-2 text-slate-700 text-sm">
+                                    <p class="font-semibold text-sky-900 mb-1 flex items-center gap-1.5"><i data-lucide="activity" class="w-4 h-4 text-sky-600"></i> Notable Trauma & Surgical Case</p>
+                                    <p class="mb-2">One significant case during his clinical training involved a 28-year-old patient recovering from knee surgery following a road traffic accident. The patient had restricted movement, weakness, difficulty bearing weight and limitations in walking.</p>
+                                    <p>The rehabilitation programme progressed through restoration of knee movement, strengthening, gait re-education, balance training and functional exercises, with treatment adjusted according to recovery at each stage.</p>
+                                </div>
+
+                                <div>
+                                    <p class="font-semibold text-slate-800 mb-2">Dr. Ettefaque has also completed training in:</p>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="inline-flex items-center gap-1.5 bg-white px-3 py-1.5 rounded-lg border border-slate-200 text-slate-700 text-xs font-medium"><i data-lucide="badge-check" class="w-3.5 h-3.5 text-sky-600"></i> Dry Needling</span>
+                                        <span class="inline-flex items-center gap-1.5 bg-white px-3 py-1.5 rounded-lg border border-slate-200 text-slate-700 text-xs font-medium"><i data-lucide="badge-check" class="w-3.5 h-3.5 text-sky-600"></i> Cupping Therapy</span>
+                                        <span class="inline-flex items-center gap-1.5 bg-white px-3 py-1.5 rounded-lg border border-slate-200 text-slate-700 text-xs font-medium"><i data-lucide="badge-check" class="w-3.5 h-3.5 text-sky-600"></i> Instrument-Assisted Soft Tissue Mobilization (IASTM)</span>
+                                        <span class="inline-flex items-center gap-1.5 bg-white px-3 py-1.5 rounded-lg border border-slate-200 text-slate-700 text-xs font-medium"><i data-lucide="badge-check" class="w-3.5 h-3.5 text-sky-600"></i> Kinesio / Therapeutic Taping</span>
+                                    </div>
+                                </div>
+
+                                <p class="p-3.5 bg-sky-50/70 rounded-xl border border-sky-100 text-slate-700">His current clinical focus is on orthopaedic, post-operative and geriatric rehabilitation, particularly patients who need structured support to regain mobility and return to everyday activity safely.</p>
+                            </div>
+                        </div>
+
+                        <button onclick="toggleTeamBio('team-more-4', this)" class="mt-4 text-brand-600 hover:text-brand-700 font-bold text-sm transition-colors inline-flex items-center gap-1.5 cursor-pointer">
+                            <span class="btn-label">Read more</span>
+                            <span class="btn-icon text-xs">▼</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How RehAAB Works -->
+    <section class="py-24 bg-slate-900 text-white relative">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
+            <h2 class="text-3xl md:text-4xl font-bold mb-16 text-center">How RehAAB Works</h2>
+            
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="relative">
+                    <div class="text-brand-500 font-bold text-xl mb-4">01</div>
+                    <h3 class="font-bold text-lg mb-2">Book Your Appointment</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Choose a convenient appointment time that works for you.</p>
+                </div>
+                <div class="relative">
+                    <div class="text-brand-500 font-bold text-xl mb-4">02</div>
+                    <h3 class="font-bold text-lg mb-2">Comprehensive Assessment</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Your physiotherapist understands your symptoms, movement, medical history and functional goals.</p>
+                </div>
+                <div class="relative">
+                    <div class="text-brand-500 font-bold text-xl mb-4">03</div>
+                    <h3 class="font-bold text-lg mb-2">Personalised Treatment Plan</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">A treatment and rehabilitation programme is designed strictly around your needs.</p>
+                </div>
+                <div class="relative">
+                    <div class="text-brand-500 font-bold text-xl mb-4">04</div>
+                    <h3 class="font-bold text-lg mb-2">Guided Rehabilitation</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Hands-on treatment, therapeutic exercise, movement training and education as appropriate.</p>
+                </div>
+                <div class="relative">
+                    <div class="text-brand-500 font-bold text-xl mb-4">05</div>
+                    <h3 class="font-bold text-lg mb-2">Track Your Progress</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Your rehabilitation plan consistently evolves according to your progress.</p>
+                </div>
+                <div class="relative">
+                    <div class="text-brand-500 font-bold text-xl mb-4">06</div>
+                    <h3 class="font-bold text-lg mb-2">Return to What Matters</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">The goal is not simply to reduce symptoms—it is to help you return to your daily activities and life with confidence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Patient Reviews -->
+    <section class="py-24 bg-slate-50 border-y border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">What Our Patients Say</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-400 mb-4"><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i></div>
+                        <p class="text-slate-700 mb-6 text-sm leading-relaxed">"From the very first session, I felt I was in safe and capable hands."</p>
+                    </div>
+                    <p class="font-bold text-slate-900 text-sm">— Kanika</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-400 mb-4"><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i></div>
+                        <p class="text-slate-700 mb-6 text-sm leading-relaxed">"Thank you so much, I highly recommend these doctors!"</p>
+                    </div>
+                    <p class="font-bold text-slate-900 text-sm">— Vladyslav Bedereu</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-400 mb-4"><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i></div>
+                        <p class="text-slate-700 mb-6 text-sm leading-relaxed">"The service is very good and Abdul is very knowledgeable."</p>
+                    </div>
+                    <p class="font-bold text-slate-900 text-sm">— Nanna Ji</p>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="https://share.google/Ka5a9JVr80pVR4bq1" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 font-bold text-brand-600 hover:text-brand-700">Read More Reviews <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educational / Blog -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">RehAAB Insights</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto">Practical, evidence-based information to help you understand your body, movement and rehabilitation.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="group cursor-pointer">
+                    <div class="rounded-2xl overflow-hidden mb-4 aspect-[3/2]">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80" alt="Physiotherapy for Knee Rehabilitation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerpolicy="no-referrer">
+                    </div>
+                    <p class="text-brand-600 text-xs font-bold uppercase tracking-wider mb-2">Pain & Injury</p>
+                    <h3 class="font-bold text-lg text-slate-900 mb-2 group-hover:text-brand-600 transition-colors leading-tight">Why Does My Knee Hurt While Climbing Stairs?</h3>
+                    <p class="text-slate-600 text-sm line-clamp-2 mb-4 leading-relaxed">Understanding the mechanics of knee pain during step-ups and how targeted physiotherapy can help.</p>
+                    <div class="text-xs text-slate-500 font-medium">By Dr. Shalini (PT)</div>
+                </div>
+                <div class="group cursor-pointer">
+                    <div class="rounded-2xl overflow-hidden mb-4 aspect-[3/2]">
+                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=80" alt="Physiotherapist Assessing Back Pain" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerpolicy="no-referrer">
+                    </div>
+                    <p class="text-brand-600 text-xs font-bold uppercase tracking-wider mb-2">Pain & Injury</p>
+                    <h3 class="font-bold text-lg text-slate-900 mb-2 group-hover:text-brand-600 transition-colors leading-tight">When Should You See a Physiotherapist for Back Pain?</h3>
+                    <p class="text-slate-600 text-sm line-clamp-2 mb-4 leading-relaxed">Learn the signs that indicate it's time to seek professional help for persistent back discomfort.</p>
+                    <div class="text-xs text-slate-500 font-medium">By Dr. Shalini (PT)</div>
+                </div>
+                <div class="group cursor-pointer">
+                    <div class="rounded-2xl overflow-hidden mb-4 aspect-[3/2]">
+                        <img src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=600&q=80" alt="Guided Postnatal Physical Therapy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerpolicy="no-referrer">
+                    </div>
+                    <p class="text-brand-600 text-xs font-bold uppercase tracking-wider mb-2">Women's Health</p>
+                    <h3 class="font-bold text-lg text-slate-900 mb-2 group-hover:text-brand-600 transition-colors leading-tight">Postnatal Recovery: Where Physiotherapy Can Help</h3>
+                    <p class="text-slate-600 text-sm line-clamp-2 mb-4 leading-relaxed">A guide to navigating physical changes after childbirth and safely returning to exercise.</p>
+                    <div class="text-xs text-slate-500 font-medium">By Dr. Shalini (PT)</div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#" class="inline-flex items-center gap-2 font-bold text-brand-600 hover:text-brand-700">View All Articles <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Location Section -->
+    <section id="locations" class="py-24 bg-slate-50 border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="inline-flex items-center gap-2 bg-brand-50 text-brand-700 border border-brand-200 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+                    <i data-lucide="map-pin" class="w-4 h-4"></i> Our Clinics
+                </span>
+                <h2 class="text-3xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight">Visit RehAAB</h2>
+                <p class="text-slate-600 text-base md:text-lg leading-relaxed">
+                    Find a RehAAB Physiotherapy & Wellness Centre near you for expert, personalized care.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Vasant Kunj (Main) -->
+                <div class="lg:col-span-2 bg-white rounded-[2rem] border border-slate-200 shadow-sm p-8 flex flex-col md:flex-row gap-10 items-center">
+                    <div class="flex-1 w-full">
+                        <div class="inline-flex items-center gap-1.5 bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide mb-4">
+                            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Open Now
+                        </div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-6">RehAAB Vasant Kunj</h3>
+                        <div class="space-y-5 mb-8">
+                            <div class="flex items-start gap-4">
+                                <div class="p-2.5 bg-slate-50 rounded-xl text-brand-600 shrink-0 border border-slate-100"><i data-lucide="map-pin" class="w-5 h-5"></i></div>
+                                <div class="pt-0.5">
+                                    <h4 class="font-bold text-slate-900 text-sm mb-1">Clinic Address</h4>
+                                    <p class="text-slate-600 text-sm leading-relaxed">Shop No.1, OPD Block Nao Healthcare, Main Road, opp. Fortis, near D-3, Pocket 1, Sector B, Vasant Kunj, New Delhi, Delhi 110070</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="p-2.5 bg-slate-50 rounded-xl text-brand-600 shrink-0 border border-slate-100"><i data-lucide="clock" class="w-5 h-5"></i></div>
+                                <div class="pt-0.5">
+                                    <h4 class="font-bold text-slate-900 text-sm mb-1">Opening Hours</h4>
+                                    <p class="text-slate-600 text-sm leading-relaxed"><span class="text-slate-800 font-medium">Open Daily</span> · Closes 10:00 PM</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="p-2.5 bg-slate-50 rounded-xl text-brand-600 shrink-0 border border-slate-100"><i data-lucide="phone" class="w-5 h-5"></i></div>
+                                <div class="pt-0.5">
+                                    <h4 class="font-bold text-slate-900 text-sm mb-1">Contact</h4>
+                                    <p class="text-slate-600 text-sm leading-relaxed"><a href="tel:+919319933875" class="hover:text-brand-600 font-medium">+91 93199 33875</a><br/><a href="mailto:hello@rehaab.com" class="hover:text-brand-600">hello@rehaab.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://share.google/Dg2oEjltXvzyZdi7g" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-brand-600 text-white font-bold px-6 py-3 rounded-full hover:bg-brand-700 transition-colors shadow-sm w-full md:w-auto justify-center">
+                            Get Directions <i data-lucide="external-link" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                    <div class="w-full md:w-[45%] aspect-[4/3] bg-slate-200 rounded-2xl overflow-hidden relative border-4 border-slate-50 shadow-inner shrink-0">
+                         <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=800&q=80" alt="Map View" class="w-full h-full object-cover grayscale mix-blend-multiply opacity-50" referrerpolicy="no-referrer">
+                         <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="bg-white/90 backdrop-blur-sm p-4 rounded-full shadow-lg">
+                                 <i data-lucide="map-pin" class="w-8 h-8 text-brand-600"></i>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+
+                <!-- Secondary Locations -->
+                <div class="flex flex-col gap-6">
+                    <!-- Chandni Chowk -->
+                    <div class="bg-gradient-to-br from-brand-50 via-white to-sky-50/40 rounded-[2rem] border border-brand-100 shadow-sm p-8 flex-1 flex flex-col justify-center relative overflow-hidden group">
+                        <div class="absolute -right-8 -top-8 w-32 h-32 bg-brand-200/40 rounded-full blur-3xl group-hover:bg-brand-300/40 transition-colors duration-500"></div>
+                        <div class="relative z-10">
+                            <div class="inline-flex items-center gap-1.5 bg-sky-100 border border-sky-200 text-sky-800 px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wide mb-4">
+                                <i data-lucide="calendar" class="w-3.5 h-3.5 text-sky-600"></i> Opening on 25th October
+                            </div>
+                            <h3 class="text-2xl font-bold text-slate-900 mb-4">RehAAB Chandni Chowk</h3>
+
+                            <div class="space-y-4 mb-5">
+                                <div class="flex items-start gap-3.5">
+                                    <div class="p-2.5 bg-white rounded-xl text-brand-600 shrink-0 border border-slate-200/80 shadow-xs">
+                                        <i data-lucide="map-pin" class="w-5 h-5"></i>
+                                    </div>
+                                    <div class="pt-0.5">
+                                        <h4 class="font-bold text-slate-900 text-sm mb-1">Branch Address</h4>
+                                        <p class="text-slate-600 text-sm leading-relaxed">
+                                            Basement - Shama building, Lal Kuan Bazar Road, near Hamdard building, Chandni Chowk, Delhi - 110006
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3.5">
+                                    <div class="p-2.5 bg-white rounded-xl text-emerald-600 shrink-0 border border-slate-200/80 shadow-xs">
+                                        <i data-lucide="clock" class="w-5 h-5"></i>
+                                    </div>
+                                    <div class="pt-0.5">
+                                        <h4 class="font-bold text-slate-900 text-sm mb-1">Launch Schedule</h4>
+                                        <p class="text-slate-700 text-sm font-semibold">
+                                            Opening on 25th October
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pt-2 border-t border-sky-100/80 flex items-center justify-between gap-3">
+                                <p class="text-xs text-slate-500 leading-relaxed">
+                                    Advance inquiries open.
+                                </p>
+                                <a href="https://wa.me/919319933875?text=Hi%20RehAAB%20Team%2C%20I%20would%20like%20to%20inquire%20about%20the%20upcoming%20Chandni%20Chowk%20branch." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs font-bold text-[#16a34a] hover:text-[#15803d] transition-colors">
+                                    <i data-lucide="message-circle" class="w-4 h-4"></i> Inquire via WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Appointment & Contact Us Section -->
+    <section id="contact" class="py-24 bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white relative overflow-hidden">
+        <!-- Subtle background glow -->
+        <div class="absolute top-0 right-1/4 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-0 left-1/4 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="inline-flex items-center gap-2 bg-brand-500/10 text-brand-400 border border-brand-500/20 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+                    <i data-lucide="calendar-check" class="w-4 h-4"></i> Simple & Fast Booking
+                </span>
+                <h2 class="text-3xl md:text-5xl font-bold text-white mb-4 tracking-tight">Book Your Appointment</h2>
+                <p class="text-slate-300 text-base md:text-lg leading-relaxed">
+                    Schedule your consultation with our expert physiotherapists at our Vasant Kunj clinic or request convenient home physiotherapy.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-12 gap-12 items-start">
+                <!-- Left Info Card -->
+                <div class="lg:col-span-5 space-y-8">
+                    <div class="bg-slate-800/80 backdrop-blur-md rounded-3xl p-8 border border-slate-700/60 shadow-xl">
+                        <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-3">
+                            <span class="p-2.5 bg-brand-500/20 rounded-xl text-brand-400">
+                                <i data-lucide="stethoscope" class="w-5 h-5"></i>
+                            </span>
+                            Why Choose RehAAB?
+                        </h3>
+
+                        <ul class="space-y-4 text-sm text-slate-300">
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-400 shrink-0 mt-0.5"></i>
+                                <span><strong class="text-white">1-on-1 Dedicated Care:</strong> Comprehensive evaluation and undivided therapist attention.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-400 shrink-0 mt-0.5"></i>
+                                <span><strong class="text-white">Evidence-Based Treatment:</strong> Modern manual therapy, exercise prescription, and electro-modalities.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-400 shrink-0 mt-0.5"></i>
+                                <span><strong class="text-white">In-Clinic & Home Visits:</strong> Flexible options tailored to your mobility and convenience.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-400 shrink-0 mt-0.5"></i>
+                                <span><strong class="text-white">Fast Response:</strong> Clinic team verifies and confirms your slot promptly.</span>
+                            </li>
+                        </ul>
+
+                        <div class="mt-8 pt-8 border-t border-slate-700 space-y-4">
+                            <div class="flex items-center gap-4 text-sm text-slate-300">
+                                <div class="p-2.5 bg-slate-900 rounded-xl text-brand-400 shrink-0 border border-slate-700">
+                                    <i data-lucide="phone" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <div class="text-xs text-slate-400 font-medium">Direct Call / Helpline</div>
+                                    <a href="tel:+919319933875" class="text-white font-bold hover:text-brand-400 transition-colors">+91 93199 33875</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-4 text-sm text-slate-300">
+                                <div class="p-2.5 bg-slate-900 rounded-xl text-green-400 shrink-0 border border-slate-700">
+                                    <i data-lucide="message-circle" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <div class="text-xs text-slate-400 font-medium">Instant WhatsApp Support</div>
+                                    <a href="https://wa.me/919319933875?text=Hi%20RehAAB%20Team%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener noreferrer" class="text-white font-bold hover:text-green-400 transition-colors">+91 93199 33875 (Chat Now)</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-4 text-sm text-slate-300">
+                                <div class="p-2.5 bg-slate-900 rounded-xl text-emerald-400 shrink-0 border border-slate-700">
+                                    <i data-lucide="clock" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <div class="text-xs text-slate-400 font-medium">Clinic Timings</div>
+                                    <div class="text-white font-semibold">Open Daily · 9:00 AM – 10:00 PM</div>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4 text-sm text-slate-300">
+                                <div class="p-2.5 bg-slate-900 rounded-xl text-brand-400 shrink-0 border border-slate-700 mt-0.5">
+                                    <i data-lucide="map-pin" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <div class="text-xs text-slate-400 font-medium">Clinic Location</div>
+                                    <div class="text-white leading-relaxed">Shop No.1, OPD Block Nao Healthcare, opp. Fortis, Pocket 1, Sector B, Vasant Kunj, New Delhi 110070</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Interactive Booking Form Card -->
+                <div class="lg:col-span-7">
+                    <div class="bg-white text-slate-900 rounded-3xl p-8 md:p-10 shadow-2xl border border-slate-100 relative">
+                        
+                        <!-- Form Header -->
+                        <div class="mb-8">
+                            <h3 class="text-2xl font-bold text-slate-900 mb-2">Request an Appointment</h3>
+                            <p class="text-slate-600 text-sm">Fill in your details below and our team will get in touch to confirm your appointment time.</p>
+                        </div>
+
+                        <!-- Success Message Banner (Hidden by default) -->
+                        <div id="booking-success" class="hidden mb-8 p-6 bg-emerald-50 border border-emerald-200 rounded-2xl">
+                            <div class="flex items-start gap-4">
+                                <div class="p-2.5 bg-emerald-500 text-white rounded-full shrink-0 mt-0.5">
+                                    <i data-lucide="check" class="w-5 h-5"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="text-lg font-bold text-emerald-900 mb-1">Thank you, we will contact you soon</h4>
+                                    <p class="text-sm text-emerald-800 mb-4 leading-relaxed">
+                                        Your appointment request has been successfully submitted. We will be in touch shortly to confirm your booking.
+                                    </p>
+                                    <div class="flex flex-wrap gap-3">
+                                        <button id="book-another-btn" type="button" class="inline-flex items-center gap-2 bg-white border border-slate-300 hover:bg-slate-50 text-slate-700 font-semibold text-sm px-4 py-2.5 rounded-full transition-all">
+                                            Book Another
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Booking Form -->
+                        <form id="appointment-form" action="https://script.google.com/macros/s/AKfycbzsDS8uN9gRj-1VISTV5TY0CAFm4mD-_HsL6x0_a7p42gASpB6onVSx9rkygQJVsDsu/exec" method="POST" class="space-y-6">
+                            <!-- Consultation Type Selector -->
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-2">Consultation Type</label>
+                                <div class="grid grid-cols-2 gap-3">
+                                    <label class="flex items-center justify-center gap-2.5 p-3.5 border-2 border-brand-600 bg-brand-50/50 rounded-2xl cursor-pointer text-sm font-bold text-brand-900 transition-all consultation-type-option" data-type="In-Clinic">
+                                        <input type="radio" name="consultationType" value="In-Clinic (Vasant Kunj)" checked class="text-brand-600 focus:ring-brand-500">
+                                        <i data-lucide="building-2" class="w-4 h-4 text-brand-600"></i> In-Clinic (Vasant Kunj)
+                                    </label>
+                                    <label class="flex items-center justify-center gap-2.5 p-3.5 border-2 border-slate-200 hover:border-slate-300 rounded-2xl cursor-pointer text-sm font-semibold text-slate-700 transition-all consultation-type-option" data-type="Home-Visit">
+                                        <input type="radio" name="consultationType" value="Home Physiotherapy Visit" class="text-brand-600 focus:ring-brand-500">
+                                        <i data-lucide="home" class="w-4 h-4 text-slate-500"></i> Home Visit
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- Name & Phone -->
+                            <div class="grid md:grid-cols-2 gap-5">
+                                <div>
+                                    <label for="client-name" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                                        Full Name <span class="text-rose-500">*</span>
+                                    </label>
+                                    <div class="relative">
+                                        <i data-lucide="user" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+                                        <input type="text" id="client-name" name="name" required placeholder="e.g. Rahul Sharma" class="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-sm text-slate-900 focus:bg-white focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label for="client-phone" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                                        Phone / WhatsApp Number <span class="text-rose-500">*</span>
+                                    </label>
+                                    <div class="relative">
+                                        <i data-lucide="phone" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+                                        <input type="tel" id="client-phone" name="phone" required placeholder="e.g. +91 98765 43210" class="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-sm text-slate-900 focus:bg-white focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Email & Service -->
+                            <div class="grid md:grid-cols-2 gap-5">
+                                <div>
+                                    <label for="client-email" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                                        Email Address <span class="text-xs font-normal text-slate-400">(Optional)</span>
+                                    </label>
+                                    <div class="relative">
+                                        <i data-lucide="mail" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+                                        <input type="email" id="client-email" name="email" placeholder="e.g. rahul@example.com" class="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-sm text-slate-900 focus:bg-white focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label for="client-service" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                                        Service / Specialty <span class="text-rose-500">*</span>
+                                    </label>
+                                    <div class="relative">
+                                        <i data-lucide="activity" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+                                        <select id="client-service" name="clientService" required class="w-full pl-10 pr-8 py-3 bg-slate-50 border border-slate-200 rounded-xl text-sm text-slate-900 focus:bg-white focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all appearance-none cursor-pointer">
+                                            <option value="" disabled selected>Select a Service</option>
+                                            <option value="Initial Physiotherapy Assessment">Initial Physiotherapy Assessment</option>
+                                            <option value="Musculoskeletal & Joint Pain (Back, Knee, Shoulder)">Musculoskeletal &amp; Joint Pain (Back, Knee, Shoulder)</option>
+                                            <option value="Sports Injury Rehabilitation">Sports Injury Rehabilitation</option>
+                                            <option value="Women's Health & Pelvic Floor">Women's Health &amp; Pelvic Floor</option>
+                                            <option value="Antenatal & Postnatal Care">Antenatal &amp; Postnatal Care</option>
+                                            <option value="Post-Surgical / Orthopaedic Rehab">Post-Surgical / Orthopaedic Rehab</option>
+                                            <option value="Vestibular & Balance Rehabilitation">Vestibular &amp; Balance Rehabilitation</option>
+                                            <option value="Geriatric Mobility & Fall Prevention">Geriatric Mobility &amp; Fall Prevention</option>
+                                            <option value="Home Physiotherapy Session">Home Physiotherapy Session</option>
+                                            <option value="General Consultation">General Consultation</option>
+                                        </select>
+                                        <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 absolute right-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Preferred Date & Time Slot -->
+                            <div class="grid md:grid-cols-2 gap-5">
+                                <div>
+                                    <label for="client-date" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                                        Preferred Date <span class="text-rose-500">*</span>
+                                    </label>
+                                    <div class="relative">
+                                        <input type="date" id="client-date" name="clientDate" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-sm text-slate-900 focus:bg-white focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all cursor-pointer">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label for="client-time" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                                        Preferred Time Slot <span class="text-rose-500">*</span>
+                                    </label>
+                                    <div class="relative">
+                                        <i data-lucide="clock" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+                                        <select id="client-time" name="clientTime" required class="w-full pl-10 pr-8 py-3 bg-slate-50 border border-slate-200 rounded-xl text-sm text-slate-900 focus:bg-white focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all appearance-none cursor-pointer">
+                                            <option value="" disabled selected>Choose Time of Day</option>
+                                            <option value="Morning (09:00 AM - 01:00 PM)">Morning (09:00 AM - 01:00 PM)</option>
+                                            <option value="Afternoon (01:00 PM - 05:00 PM)">Afternoon (01:00 PM - 05:00 PM)</option>
+                                            <option value="Evening (05:00 PM - 09:30 PM)">Evening (05:00 PM - 09:30 PM)</option>
+                                        </select>
+                                        <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 absolute right-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Notes / Description -->
+                            <div>
+                                <label for="client-notes" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                                    Describe Your Symptoms or Goals <span class="text-xs font-normal text-slate-400">(Optional)</span>
+                                </label>
+                                <textarea id="client-notes" name="message" rows="3" placeholder="Tell us about your pain area, recent injury, duration of discomfort, or doctor's recommendation..." class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-sm text-slate-900 focus:bg-white focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all resize-none"></textarea>
+                            </div>
+
+                            <!-- Submit Buttons -->
+                            <div class="pt-2 flex flex-col sm:flex-row gap-4">
+                                <button type="submit" id="submit-booking-btn" class="flex-1 bg-brand-600 hover:bg-brand-700 text-white font-bold py-4 px-8 rounded-full flex items-center justify-center gap-2 shadow-lg hover:shadow-brand-600/30 transition-all text-base">
+                                    <i data-lucide="calendar-plus" class="w-5 h-5"></i> Confirm Appointment Request
+                                </button>
+                                <a href="https://wa.me/919319933875?text=Hi%20RehAAB%20Team%2C%20I%20would%20like%20to%20book%20a%20physiotherapy%20appointment." target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-6 rounded-full flex items-center justify-center gap-2 transition-all shadow-md text-base">
+                                    <i data-lucide="message-circle" class="w-5 h-5"></i> Book via WhatsApp
+                                </a>
+                            </div>
+
+                            <p class="text-xs text-slate-400 text-center flex items-center justify-center gap-1.5 pt-1">
+                                <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600"></i> Your details are private and confidential. No advance online payment required.
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 pt-20 pb-24 lg:pb-12">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-12 mb-12 border-b border-slate-800 pb-12">
+            <div>
+                <a href="/" class="flex items-center justify-start mb-6 transition-transform">
+                    <img src="C2EB3874-13AE-4BEB-B6E9-36D8D11813AE.png" alt="RehAAB Physiotherapy & Wellness Centre" class="h-14 md:h-16 w-auto object-contain" referrerpolicy="no-referrer">
+                </a>
+                <p class="text-sm leading-relaxed mb-6">
+                    Personalised, evidence-based physiotherapy and rehabilitation designed around your condition, your goals and your lifestyle.
+                </p>
+                <div class="flex gap-4">
+                    <a href="#" class="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-brand-600 hover:text-white transition-all"><i data-lucide="instagram" class="w-4 h-4"></i></a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-brand-600 hover:text-white transition-all"><i data-lucide="facebook" class="w-4 h-4"></i></a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-brand-600 hover:text-white transition-all"><i data-lucide="youtube" class="w-4 h-4"></i></a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-brand-600 hover:text-white transition-all"><i data-lucide="linkedin" class="w-4 h-4"></i></a>
+                </div>
+            </div>
+            
+            <div>
+                <h4 class="text-white font-bold mb-6 text-lg">Quick Links</h4>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="/" class="hover:text-brand-400 transition-colors">Home</a></li>
+                    <li><a href="#about" class="hover:text-brand-400 transition-colors">About</a></li>
+                    <li><a href="#services" class="hover:text-brand-400 transition-colors">Services</a></li>
+                    <li><a href="#conditions" class="hover:text-brand-400 transition-colors">Conditions</a></li>
+                    <li><a href="#team" class="hover:text-brand-400 transition-colors">Our Team</a></li>
+                    <li><a href="#" class="hover:text-brand-400 transition-colors">Blog</a></li>
+                    <li><a href="#contact" class="hover:text-brand-400 transition-colors">Contact</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold mb-6 text-lg">Services</h4>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="#services" class="hover:text-brand-400 transition-colors">Musculoskeletal Physiotherapy</a></li>
+                    <li><a href="#services" class="hover:text-brand-400 transition-colors">Sports Rehabilitation</a></li>
+                    <li><a href="#services" class="hover:text-brand-400 transition-colors">Women's Health</a></li>
+                    <li><a href="#services" class="hover:text-brand-400 transition-colors">Antenatal & Postnatal</a></li>
+                    <li><a href="#services" class="hover:text-brand-400 transition-colors">Pelvic Floor Rehabilitation</a></li>
+                    <li><a href="#services" class="hover:text-brand-400 transition-colors">Vestibular Rehabilitation</a></li>
+                    <li><a href="#services" class="hover:text-brand-400 transition-colors">Geriatric Rehabilitation</a></li>
+                    <li><a href="#contact" class="hover:text-brand-400 transition-colors">Home Physiotherapy</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold mb-6 text-lg">Contact</h4>
+                <ul class="space-y-4 text-sm">
+                    <li class="flex items-start gap-3">
+                        <i data-lucide="phone" class="w-5 h-5 text-brand-500 shrink-0 mt-0.5"></i>
+                        <a href="tel:+919319933875" class="hover:text-white transition-colors">+91 93199 33875</a>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i data-lucide="message-circle" class="w-5 h-5 text-brand-500 shrink-0 mt-0.5"></i>
+                        <a href="https://wa.me/919319933875?text=Hi%20RehAAB%20Team%2C%20I%20would%20like%20to%20book%20a%20physiotherapy%20appointment." target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">WhatsApp Us</a>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i data-lucide="mail" class="w-5 h-5 text-brand-500 shrink-0 mt-0.5"></i>
+                        <span>hello@rehaab.com</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i data-lucide="map-pin" class="w-5 h-5 text-brand-500 shrink-0 mt-0.5"></i>
+                        <span class="leading-relaxed">Shop No.1, OPD Block Nao Healthcare, Main Road, opp. Fortis, near D-3, Pocket 1, Sector B, Vasant Kunj, New Delhi 110070</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-6 md:px-12 text-xs flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500">
+            <p>&copy; 2026 RehAAB Physiotherapy & Wellness Centre. All Rights Reserved.</p>
+            <div class="flex gap-6">
+                <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition-colors">Terms & Conditions</a>
+                <a href="#" class="hover:text-white transition-colors">Disclaimer</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button (Desktop) -->
+    <a href="https://wa.me/919319933875?text=Hi%20RehAAB%20Team%2C%20I%20would%20like%20to%20book%20a%20physiotherapy%20appointment." target="_blank" rel="noopener noreferrer" class="hidden lg:flex fixed bottom-8 right-8 z-50 bg-green-500 text-white w-14 h-14 rounded-full items-center justify-center shadow-lg hover:bg-green-600 hover:scale-110 transition-all duration-300 group">
+        <i data-lucide="message-circle" class="w-7 h-7"></i>
+        <span class="absolute right-full mr-4 bg-slate-900 text-white text-sm px-3 py-1.5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
+            WhatsApp Us
+        </span>
+    </a>
+
+    <!-- Mobile Sticky Bottom Bar -->
+    <div class="lg:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 z-50 flex shadow-[0_-4px_20px_rgba(0,0,0,0.06)]">
+        <a href="tel:+919319933875" class="flex-1 py-3 flex flex-col items-center justify-center text-slate-900 hover:bg-slate-50 transition-colors border-r border-slate-200/80">
+            <i data-lucide="phone" class="w-5 h-5 text-slate-900 mb-1 stroke-[2.2]"></i>
+            <span class="text-[11px] font-black uppercase tracking-wider text-slate-900">CALL</span>
+        </a>
+        <a href="https://wa.me/919319933875?text=Hi%20RehAAB%20Team%2C%20I%20would%20like%20to%20book%20a%20physiotherapy%20appointment." target="_blank" rel="noopener noreferrer" class="flex-1 py-3 flex flex-col items-center justify-center text-[#16a34a] hover:bg-green-50/40 transition-colors border-r border-slate-200/80">
+            <i data-lucide="message-circle" class="w-5 h-5 text-[#16a34a] mb-1 stroke-[2.2]"></i>
+            <span class="text-[11px] font-black uppercase tracking-wider text-[#16a34a]">WHATSAPP</span>
+        </a>
+        <a href="#contact" class="flex-1 py-3 flex flex-col items-center justify-center text-[#0284c7] hover:bg-sky-50/40 transition-colors">
+            <i data-lucide="calendar" class="w-5 h-5 text-[#0284c7] mb-1 stroke-[2.2]"></i>
+            <span class="text-[11px] font-black uppercase tracking-wider text-[#0284c7]">BOOK</span>
+        </a>
+    </div>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Toggle Team Member Bio
+        function toggleTeamBio(id, btn) {
+            const el = document.getElementById(id);
+            if (!el) return;
+            const isHidden = el.classList.contains('hidden');
+            const labelSpan = btn.querySelector('.btn-label') || btn;
+            const iconSpan = btn.querySelector('.btn-icon');
+            if (isHidden) {
+                el.classList.remove('hidden');
+                if (labelSpan && iconSpan) {
+                    labelSpan.textContent = 'Read less';
+                    iconSpan.textContent = '▲';
+                } else {
+                    btn.innerText = 'Read less';
+                }
+            } else {
+                el.classList.add('hidden');
+                if (labelSpan && iconSpan) {
+                    labelSpan.textContent = 'Read more';
+                    iconSpan.textContent = '▼';
+                } else {
+                    btn.innerText = 'Read more';
+                }
+            }
+            if (window.lucide) {
+                window.lucide.createIcons();
+            }
+        }
+        window.toggleTeamBio = toggleTeamBio;
+
+        // Mobile Navigation Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+        if (mobileMenuBtn && mobileMenu) {
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            mobileNavLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+        }
+
+        // Set minimum date for appointment to today
+        const dateInput = document.getElementById('client-date');
+        if (dateInput) {
+            const today = new Date().toISOString().split('T')[0];
+            dateInput.min = today;
+            dateInput.value = today;
+        }
+
+        // Consultation type radio UI styling
+        const radioOptions = document.querySelectorAll('.consultation-type-option');
+        radioOptions.forEach(option => {
+            const radio = option.querySelector('input[type="radio"]');
+            radio.addEventListener('change', () => {
+                radioOptions.forEach(opt => {
+                    opt.classList.remove('border-brand-600', 'bg-brand-50/50', 'text-brand-900');
+                    opt.classList.add('border-slate-200', 'text-slate-700');
+                });
+                if (radio.checked) {
+                    option.classList.remove('border-slate-200', 'text-slate-700');
+                    option.classList.add('border-brand-600', 'bg-brand-50/50', 'text-brand-900');
+                }
+            });
+        });
+
+        // Booking form submission & Apps Script integration
+        const appointmentForm = document.getElementById('appointment-form');
+        const bookingSuccess = document.getElementById('booking-success');
+        const bookAnotherBtn = document.getElementById('book-another-btn');
+        const submitBtn = document.getElementById('submit-booking-btn');
+
+        if (appointmentForm) {
+            appointmentForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+
+                const name = document.getElementById('client-name').value.trim();
+                const phone = document.getElementById('client-phone').value.trim();
+                const email = document.getElementById('client-email').value.trim();
+                const service = document.getElementById('client-service').value;
+                const date = document.getElementById('client-date').value;
+                const time = document.getElementById('client-time').value;
+                const notes = document.getElementById('client-notes').value.trim();
+                const typeRadio = document.querySelector('input[name="consultationType"]:checked');
+                const consultationType = typeRadio ? typeRadio.value : 'In-Clinic (Vasant Kunj)';
+
+                if (!name || !phone || !service || !date || !time) {
+                    return;
+                }
+
+                // Combine additional fields into the message field
+                let combinedMessage = `Consultation Type: ${consultationType}\n`;
+                combinedMessage += `Service: ${service}\n`;
+                combinedMessage += `Preferred Date: ${date}\n`;
+                combinedMessage += `Time Slot: ${time}\n`;
+                if (notes) combinedMessage += `\nSymptoms/Notes:\n${notes}`;
+
+                const formData = new FormData();
+                formData.append('name', name);
+                formData.append('phone', phone);
+                formData.append('email', email);
+                formData.append('message', combinedMessage);
+
+                // UI loading state
+                if (submitBtn) {
+                    submitBtn.disabled = true;
+                    submitBtn.innerHTML = '<i data-lucide="loader-2" class="w-5 h-5 animate-spin"></i> Submitting...';
+                    lucide.createIcons();
+                }
+
+                fetch('https://script.google.com/macros/s/AKfycbzsDS8uN9gRj-1VISTV5TY0CAFm4mD-_HsL6x0_a7p42gASpB6onVSx9rkygQJVsDsu/exec', {
+                    method: 'POST',
+                    body: formData,
+                    mode: 'no-cors'
+                }).then(() => {
+                    // Show success, hide form
+                    bookingSuccess.classList.remove('hidden');
+                    appointmentForm.classList.add('hidden');
+                    
+                    // Smooth scroll to top of booking card
+                    bookingSuccess.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }).catch(err => {
+                    console.error('Error submitting form', err);
+                    alert('There was a problem submitting your request. Please try again.');
+                }).finally(() => {
+                    if (submitBtn) {
+                        submitBtn.disabled = false;
+                        submitBtn.innerHTML = '<i data-lucide="calendar-plus" class="w-5 h-5"></i> Confirm Appointment Request';
+                        lucide.createIcons();
+                    }
+                });
+            });
+        }
+
+        if (bookAnotherBtn) {
+            bookAnotherBtn.addEventListener('click', () => {
+                appointmentForm.reset();
+                if (dateInput) {
+                    const today = new Date().toISOString().split('T')[0];
+                    dateInput.value = today;
+                }
+                bookingSuccess.classList.add('hidden');
+                appointmentForm.classList.remove('hidden');
+                lucide.createIcons();
+            });
+        }
+    </script>
+</body>
+</html>
